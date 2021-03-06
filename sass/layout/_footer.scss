@@ -1,0 +1,113 @@
+.footer {
+    background-color: #2f303a;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    .container {
+        display: flex;
+        align-items: baseline;
+      }
+  }
+
+.footer .logo {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: var(--second-color);
+  }
+
+.footer-addr {
+    display: block;
+    font-style: normal;
+  }
+
+.footer-street,
+.footer .address:not(:last-child) {
+    display: block;
+    margin-bottom: 9px;
+  
+    font-weight: 400;
+    line-height: 1.71;
+  }
+
+.footer-street {
+    color: var(--second-color);
+  }
+
+.join {
+    display: block;
+    margin-left: 70px;
+  }
+
+.join-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--second-color);
+    margin-bottom: 20px;
+  }
+
+.subscribe-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+.subscribe-form {
+    margin-left: auto;
+  }
+
+.subscribe-form-btn {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px; 
+    border: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 40px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    margin-left: 12px;
+  }
+
+.ssubscribe-form-wrapper {
+    display: block;
+    margin-left: 70px;
+  }
+
+.footer-input {
+    width: 358px;
+    height: 50px;
+    left: 815px;
+    top: 2785px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: rgba(0,0,0,0);
+    color: rgba(255,255,255, 0.6);
+    padding: 15px 16px 15px 16px;
+  }
+
+.subscribe-form-icon {
+    vertical-align: text-bottom;
+    margin-left: 10px;
+  }
+  

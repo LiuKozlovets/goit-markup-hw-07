@@ -1,0 +1,54 @@
+.features {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+
+.icon-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-icon);
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+  }
+
+.features-list {
+    display: flex;
+
+        .item{
+            width: 270px;
+        }
+  }
+
+.features-list .item:not(:last-child) {
+    margin-right: 30px;
+  }
+
+.hidden-title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    display: block;
+  }
+
+.features-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+.features-text {
+    color: var(--content-color);
+    font-weight: 400;
+    line-height: 1.71;
+  }

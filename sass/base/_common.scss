@@ -1,0 +1,25 @@
+body {
+  background-color: var(--second-color);
+  color: var(--basic-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+}
+
+h1,
+h2,
+h3,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #212121;
+}
+li {
+  list-style-type: none;
+}
